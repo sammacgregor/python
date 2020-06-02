@@ -196,3 +196,16 @@ x = {
 print(json.dumps(x))
 print(json.dumps(x, indent=4))
 
+# open file
+
+f = open("test.txt","r")
+print(f.name)
+
+f.seek
+
+for line in f:
+  print(line)
+
+
+print(f.readline())
+f.close()
